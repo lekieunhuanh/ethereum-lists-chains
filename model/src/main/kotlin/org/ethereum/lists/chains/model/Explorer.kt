@@ -1,11 +1,12 @@
 package org.ethereum.lists.chains.model
 
 import com.squareup.moshi.JsonClass
-import org.ethereum.lists.chains.model.ExplorerStandard.*
+import org.ethereum.lists.chains.models.ExplorerStandard.*
 
 enum class ExplorerStandard {
     EIP3091,
-    none
+    none,
+    standard
 }
 
 @JsonClass(generateAdapter = true)
