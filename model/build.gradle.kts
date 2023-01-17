@@ -6,8 +6,6 @@ plugins {
 publishing {
     publications {
         create<MavenPublication>("maven") {
-            version = "1.2"
-
             from(components["java"])
         }
     }
